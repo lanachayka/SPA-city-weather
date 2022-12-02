@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/SPA-city-weather/static/js/main.fbbc4db0.js",
+    "index.html": "/SPA-city-weather/index.html",
+    "main.fbbc4db0.js.map": "/SPA-city-weather/static/js/main.fbbc4db0.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.fbbc4db0.js"
+  ]
+}
