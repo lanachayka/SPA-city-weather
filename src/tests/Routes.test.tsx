@@ -4,7 +4,10 @@ import { renderWithProviders } from "./renderWithProviders";
 
 test("renders routes correct", async () => {
   const app = renderWithProviders(
-    <MemoryRouter initialEntries={["/TestCity"]} initialIndex={0}>
+    <MemoryRouter
+      initialEntries={["/SPA-city-weather/TestCity"]}
+      initialIndex={0}
+    >
       <Routes>{routes}</Routes>
     </MemoryRouter>
   );
@@ -14,7 +17,7 @@ test("renders routes correct", async () => {
 
 test("renders routes correct", async () => {
   const app = renderWithProviders(
-    <MemoryRouter initialEntries={["/"]} initialIndex={0}>
+    <MemoryRouter initialEntries={["/SPA-city-weather"]} initialIndex={0}>
       <Routes>{routes}</Routes>
     </MemoryRouter>
   );

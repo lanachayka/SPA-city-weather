@@ -90,8 +90,13 @@ export const CityCard: React.FC<Props> = ({ cityName }) => {
           Refresh
         </Button>
         {showDetails && (
-          <Link to={`/${cityName}`} key={"/:name"}>
-            <Button size="small" data-testid="learn-more">Learn More</Button>
+          <Link
+            to={`/SPA-city-weather/${cityName}`}
+            key={"/SPA-city-weather/:name"}
+          >
+            <Button size="small" data-testid="learn-more">
+              Learn More
+            </Button>
           </Link>
         )}
       </CardActions>

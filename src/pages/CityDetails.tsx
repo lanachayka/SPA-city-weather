@@ -29,7 +29,7 @@ export const CityDetails = () => {
   }, [hourlyWeather]);
   return (
     <Container fixed style={{ marginTop: "50px" }}>
-      <Link to={`/`} key={"/"}>
+      <Link to={`/SPA-city-weather`} key={"/SPA-city-weather"}>
         <Button size="large" data-testid="come-back">
           Come back
         </Button>
